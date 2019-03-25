@@ -1,0 +1,10 @@
+dir.cgi,
+format.cgi,
+home.png,
+index.htm,
+keil.gif,
+llblue.jpg,
+logo.gif,
+pabb.gif,
+upload.cgi 
+TO Web.c RTE NOPRINT ROOT(Web)
