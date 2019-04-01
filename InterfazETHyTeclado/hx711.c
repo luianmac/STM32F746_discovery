@@ -1,19 +1,21 @@
 #include "hx711.h"
 
 /*funtions*/
+
 void HX711_Init(HX711 data)
 {
 	GPIO_InitTypeDef GPIO_InitStruct;
+	__GPIOB_CLK_ENABLE();
 	GPIO_InitStruct.Pin = data.pinSck;
 	GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
 	GPIO_InitStruct.Pull = GPIO_NOPULL;
-	GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+	GPIO_InitStruct.Speed = GPIO_SPEED_LOW;
 	HAL_GPIO_Init(data.gpioSck, &GPIO_InitStruct);
 
 	GPIO_InitStruct.Pin = data.pinData;
 	GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
 	GPIO_InitStruct.Pull = GPIO_PULLUP;
-	GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+	GPIO_InitStruct.Speed = GPIO_SPEED_LOW;
 	HAL_GPIO_Init(data.gpioData, &GPIO_InitStruct);
 
 	HAL_GPIO_WritePin(data.gpioSck, data.pinSck, GPIO_PIN_SET);
@@ -22,7 +24,7 @@ void HX711_Init(HX711 data)
 
 }
 
-int HX711_Average_Value(HX711 data, uint8_t times)
+int HX711_Average_Value(HX711 data, int times)//Realiza n veces la lectura del ADC y devuelve el promedio
 {
     long sum = 0;
     for (int i = 0; i < times; i++)
@@ -66,7 +68,7 @@ int HX711_Value(HX711 data)
     return buffer;
 }
 
-HX711 HX711_Tare(HX711 data, uint8_t times)
+HX711 HX711_Tare(HX711 data, int times)
 {
     int sum = HX711_Average_Value(data, times);
     data.offset = sum;

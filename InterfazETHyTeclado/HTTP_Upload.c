@@ -38,6 +38,9 @@ const osThreadAttr_t app_main_attr = {
 
 extern GLCD_FONT GLCD_Font_16x24; //tipo de fuente de letras
 extern int stdout_init (void);
+static HX711 balanza;
+static int tara;
+
 
 /* Thread IDs */
 static osThreadId_t TID_Display;
@@ -62,28 +65,30 @@ void netDHCP_Notify (uint32_t if_num, uint8_t option, const uint8_t *val, uint32
 *Thread 'HX711' : Captura datos y los presenta por pantalla 
  *----------------------------------------------------------------------------*/
 static __NO_RETURN void CeldaDeCarga (void *arg) {
-	HX711 balanza;
-  
-	balanza.pinSck = GPIO_PIN_14;
-	balanza.pinData = GPIO_PIN_15;
-	balanza.gpioSck = GPIOB;
-	balanza.gpioData = GPIOB;
-	balanza.gain = 128;
-	
-	(void)arg;
-	
-	HX711_Init(balanza);
-	balanza = HX711_Tare(balanza,20);
+	char v[10]={0};
 	GLCD_DrawString(1*100, 1*24, "PACIFICSOFT S.A ");
-	GLCD_DrawString(1*150, 2*24, "Peso=0.00 ");
+	
+		
+	char valor[10]={0};
+	char b[25]={0};
+	char borar[20]={0};
+	float pesa ;
 	
 	while (1)
-  {
-    char valor[10]={0};
-	  float pesa = (HX711_Value(balanza)-balanza.offset);//*(2.5/15678.0);//2.5kg - 201596
-    sprintf(valor,"Peso=%.2f",pesa);
-		GLCD_DrawString(1*150, 2*24, valor);
-	  osDelay (100);
+  {		
+		//sprintf(borar,"offsetF=%i",balanza.offset);
+		//GLCD_DrawString(120,5*24,borar);
+		
+		//sprintf(b,"HX711_Value=%i",HX711_Value(balanza));
+		//GLCD_DrawString(120,6*24,b);
+		
+		
+		//(2.5/15678.0);//2.5kg - 201596
+		
+    sprintf(valor,"Peso=%i",HX711_Value(balanza)-tara);
+		GLCD_DrawString(1*150, 7*24, valor);
+	  
+		osDelay (1);
   }	
 }
 
@@ -223,9 +228,18 @@ __NO_RETURN void app_main (void *arg) {
     fmount ("M0:");
   }
   netInitialize ();
+	balanza.pinSck = GPIO_PIN_14;
+  balanza.pinData = GPIO_PIN_15;
+  balanza.gpioSck = GPIOB;
+  balanza.gpioData = GPIOB;
+  balanza.gain = 128;
+	HX711_Init(balanza);
+	balanza = HX711_Tare(balanza,20);
+	
+	tara=balanza.offset;
 								osThreadNew (CeldaDeCarga,NULL,NULL);
 								osThreadNew (keyboard, NULL, NULL);
-                osThreadNew (BlinkLed, NULL, NULL);
+                //osThreadNew (BlinkLed, NULL, NULL);
   TID_Display = osThreadNew (Display,  NULL, NULL);
 
   while(1) {

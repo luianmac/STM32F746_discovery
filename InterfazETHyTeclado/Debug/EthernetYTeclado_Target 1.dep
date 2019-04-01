@@ -1,5 +1,5 @@
 Dependencies for Project 'EthernetYTeclado', Target 'Target 1': (DO NOT MODIFY !)
-F (.\main.c)(0x5C98F24B)(--c99 -c --cpu Cortex-M7.fp.sp -g -O1 --apcs=interwork -I.\RTE\CMSIS-I.\RTE\Compiler-I.\RTE\Device\STM32F746NGHx-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\RTOS2\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\RTOS2\RTX\Include-IC:\Keil_v5\ARM\PACK\Keil\ARM_Compiler\1.6.0\Include-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.7.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.7.0\FileSystem\Include-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.7.0\Network\Include-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.7.0\USB\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.11.0\Drivers\BSP\STM32746G-Discovery-IC:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.11.0\Drivers\STM32F7xx_HAL_Driver\Inc-IC:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.11.0\MDK\Boards\ST\STM32F746G_Discovery\Common-D__UVISION_VERSION="526" -D_RTE_ -DSTM32F746xx-o .\debug\main.o --depend .\debug\main.d)
+F (.\main.c)(0x5C9D0A26)(--c99 -c --cpu Cortex-M7.fp.sp -g -O1 --apcs=interwork -I.\RTE\CMSIS-I.\RTE\Compiler-I.\RTE\Device\STM32F746NGHx-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\RTOS2\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\RTOS2\RTX\Include-IC:\Keil_v5\ARM\PACK\Keil\ARM_Compiler\1.6.0\Include-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.7.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.7.0\FileSystem\Include-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.7.0\Network\Include-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.7.0\USB\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.11.0\Drivers\BSP\STM32746G-Discovery-IC:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.11.0\Drivers\STM32F7xx_HAL_Driver\Inc-IC:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.11.0\MDK\Boards\ST\STM32F746G_Discovery\Common-D__UVISION_VERSION="526" -D_RTE_ -DSTM32F746xx-o .\debug\main.o --depend .\debug\main.d)
 I (main.h)(0x5C91369B)
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.11.0\Drivers\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal.h)(0x5B3ABEC4)
 I (.\RTE\Device\STM32F746NGHx\stm32f7xx_hal_conf.h)(0x5B9132AC)
@@ -43,7 +43,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599F920E)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599F920C)
 I (.\RTE\_Target_1\RTE_Components.h)(0x5C9118CD)
 I (C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.7.0\FileSystem\Include\rl_fs.h)(0x58891402)
-F (.\HTTP_Upload.c)(0x5C942550)(--c99 -c --cpu Cortex-M7.fp.sp -g -O1 --apcs=interwork -I.\RTE\CMSIS-I.\RTE\Compiler-I.\RTE\Device\STM32F746NGHx-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\RTOS2\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\RTOS2\RTX\Include-IC:\Keil_v5\ARM\PACK\Keil\ARM_Compiler\1.6.0\Include-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.7.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.7.0\FileSystem\Include-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.7.0\Network\Include-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.7.0\USB\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.11.0\Drivers\BSP\STM32746G-Discovery-IC:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.11.0\Drivers\STM32F7xx_HAL_Driver\Inc-IC:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.11.0\MDK\Boards\ST\STM32F746G_Discovery\Common-D__UVISION_VERSION="526" -D_RTE_ -DSTM32F746xx-o .\debug\http_upload.o --depend .\debug\http_upload.d)
+F (.\HTTP_Upload.c)(0x5C9D582D)(--c99 -c --cpu Cortex-M7.fp.sp -g -O1 --apcs=interwork -I.\RTE\CMSIS-I.\RTE\Compiler-I.\RTE\Device\STM32F746NGHx-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\RTOS2\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\RTOS2\RTX\Include-IC:\Keil_v5\ARM\PACK\Keil\ARM_Compiler\1.6.0\Include-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.7.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.7.0\FileSystem\Include-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.7.0\Network\Include-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.7.0\USB\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.11.0\Drivers\BSP\STM32746G-Discovery-IC:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.11.0\Drivers\STM32F7xx_HAL_Driver\Inc-IC:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.11.0\MDK\Boards\ST\STM32F746G_Discovery\Common-D__UVISION_VERSION="526" -D_RTE_ -DSTM32F746xx-o .\debug\http_upload.o --depend .\debug\http_upload.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F920C)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599F920C)
 I (main.h)(0x5C91369B)
@@ -91,7 +91,7 @@ I (C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.7.0\USB\Include\usb_cdc.h)(0x58ECDA
 I (C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.7.0\USB\Include\usb_hid.h)(0x58DBD4DE)
 I (C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.7.0\USB\Include\usb_msc.h)(0x58DBD4DE)
 I (C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.7.0\USB\Include\usb_ms.h)(0x5925E34E)
-I (hx711.h)(0x5C9408F4)
+I (hx711.h)(0x5C9A9E11)
 I (C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.7.0\Board\Board_LED.h)(0x5877B69C)
 I (C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.7.0\Board\Board_GLCD.h)(0x5877B69C)
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.11.0\MDK\Boards\ST\STM32F746G_Discovery\Common\GLCD_Config.h)(0x55943950)
@@ -105,8 +105,8 @@ I (C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.7.0\Board\Board_GLCD.h)(0x5877B69C)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F920E)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599F920E)
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.11.0\MDK\Boards\ST\STM32F746G_Discovery\Common\GLCD_Config.h)(0x55943950)
-F (.\hx711.c)(0x5C942551)(--c99 -c --cpu Cortex-M7.fp.sp -g -O1 --apcs=interwork -I.\RTE\CMSIS-I.\RTE\Compiler-I.\RTE\Device\STM32F746NGHx-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\RTOS2\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\RTOS2\RTX\Include-IC:\Keil_v5\ARM\PACK\Keil\ARM_Compiler\1.6.0\Include-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.7.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.7.0\FileSystem\Include-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.7.0\Network\Include-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.7.0\USB\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.11.0\Drivers\BSP\STM32746G-Discovery-IC:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.11.0\Drivers\STM32F7xx_HAL_Driver\Inc-IC:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.11.0\MDK\Boards\ST\STM32F746G_Discovery\Common-D__UVISION_VERSION="526" -D_RTE_ -DSTM32F746xx-o .\debug\hx711.o --depend .\debug\hx711.d)
-I (hx711.h)(0x5C9408F4)
+F (.\hx711.c)(0x5C9D2C07)(--c99 -c --cpu Cortex-M7.fp.sp -g -O1 --apcs=interwork -I.\RTE\CMSIS-I.\RTE\Compiler-I.\RTE\Device\STM32F746NGHx-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\RTOS2\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\RTOS2\RTX\Include-IC:\Keil_v5\ARM\PACK\Keil\ARM_Compiler\1.6.0\Include-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.7.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.7.0\FileSystem\Include-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.7.0\Network\Include-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.7.0\USB\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.11.0\Drivers\BSP\STM32746G-Discovery-IC:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.11.0\Drivers\STM32F7xx_HAL_Driver\Inc-IC:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.11.0\MDK\Boards\ST\STM32F746G_Discovery\Common-D__UVISION_VERSION="526" -D_RTE_ -DSTM32F746xx-o .\debug\hx711.o --depend .\debug\hx711.d)
+I (hx711.h)(0x5C9A9E11)
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.11.0\Drivers\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal.h)(0x5B3ABEC4)
 I (.\RTE\Device\STM32F746NGHx\stm32f7xx_hal_conf.h)(0x5B9132AC)
 I (.\RTE\_Target_1\RTE_Components.h)(0x5C9118CD)
@@ -137,7 +137,7 @@ I (C:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.11.0\Drivers\STM32F7xx_HAL_Driver\In
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.11.0\Drivers\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_ltdc.h)(0x5B3BF1C0)
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.11.0\Drivers\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_pwr.h)(0x5B3ABEC4)
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.11.0\Drivers\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_pwr_ex.h)(0x5B3ABEC4)
-F (.\hx711.h)(0x5C9408F4)()
+F (.\hx711.h)(0x5C9A9E11)()
 F (.\Web\dir.cgi)(0x56A790D8)()
 F (.\Web\format.cgi)(0x56A790D8)()
 F (.\Web\home.png)(0x56A790D8)()
@@ -257,7 +257,7 @@ F (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\RTOS2\RTX\Source\rtx_lib.c)(0x5B622
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5B58FA96)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F920E)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B622754)
-I (.\RTE\CMSIS\RTX_Config.h)(0x5C912D5E)
+I (.\RTE\CMSIS\RTX_Config.h)(0x5C9CEBD4)
 I (.\RTE\_Target_1\RTE_Components.h)(0x5C9118CD)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\RTOS2\RTX\Include\rtx_os.h)(0x5B622756)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599F920C)
@@ -272,7 +272,7 @@ I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5B622
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\RTOS2\RTX\Include\rtx_os.h)(0x5B622756)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599F920C)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\RTOS2\Include\cmsis_os2.h)(0x5B622756)
-F (RTE\CMSIS\RTX_Config.h)(0x5C912D5E)()
+F (RTE\CMSIS\RTX_Config.h)(0x5C9CEBD4)()
 F (C:\Keil_v5\ARM\PACK\ARM\CMSIS-Driver\2.3.0\ETH\PHY_LAN8742A.c)(0x5B318AA4)(--c99 -c --cpu Cortex-M7.fp.sp -g -O1 --apcs=interwork -I.\RTE\CMSIS-I.\RTE\Compiler-I.\RTE\Device\STM32F746NGHx-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Driver\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\RTOS2\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\RTOS2\RTX\Include-IC:\Keil_v5\ARM\PACK\Keil\ARM_Compiler\1.6.0\Include-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.7.0\Board-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.7.0\FileSystem\Include-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.7.0\Network\Include-IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.7.0\USB\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.11.0\Drivers\BSP\STM32746G-Discovery-IC:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.11.0\Drivers\STM32F7xx_HAL_Driver\Inc-IC:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.11.0\MDK\Boards\ST\STM32F746G_Discovery\Common-D__UVISION_VERSION="526" -D_RTE_ -DSTM32F746xx-o .\debug\phy_lan8742a.o --depend .\debug\phy_lan8742a.d)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS-Driver\2.3.0\ETH\PHY_LAN8742A.h)(0x5B318AA4)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Driver\Include\Driver_ETH_PHY.h)(0x5B2D256C)
